@@ -1,0 +1,20 @@
+# ...existing code...
+### TERMINAL 1 (Backend)
+```bash
+cd E:\Vibe-Coding-AI\Ai-Agent
+venv\Scripts\activate
+python startup.py
+```
+# ...existing code...
+### TERMINAL 2 (Frontend)
+```bash
+cd E:\Vibe-Coding-AI\Ai-Agent\frontend
+npm start
+```
+# ...existing code...
+### BROWSER
+```
+http://localhost:3000
+```
+# ...existing code...
+

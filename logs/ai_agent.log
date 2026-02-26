@@ -1,0 +1,78 @@
+2026-02-26 14:19:04 - ai_agent - INFO - Registered 4 default tools
+2026-02-26 14:19:29 - ai_agent - INFO - Registered 4 default tools
+2026-02-26 14:19:29 - ai_agent - INFO - Processing user input: what is 5 plus 3?...
+2026-02-26 14:19:29 - ai_agent - INFO - Selected tool: web_search
+2026-02-26 14:19:29 - ai_agent - INFO - Executing tool: web_search with params: {'query': 'what is 5 plus 3?'}
+2026-02-26 14:19:29 - ai_agent - INFO - Processing user input: weather in london...
+2026-02-26 14:19:29 - ai_agent - INFO - Selected tool: weather_lookup
+2026-02-26 14:19:29 - ai_agent - INFO - Executing tool: weather_lookup with params: {'city': 'london'}
+2026-02-26 14:19:29 - ai_agent - INFO - Processing user input: search for python programming...
+2026-02-26 14:19:29 - ai_agent - INFO - Selected tool: web_search
+2026-02-26 14:19:29 - ai_agent - INFO - Executing tool: web_search with params: {'query': 'for python programming'}
+2026-02-26 14:19:29 - ai_agent - INFO - Processing user input: hello...
+2026-02-26 14:50:10 - ai_agent - INFO - Initializing database...
+2026-02-26 14:50:10 - ai_agent - INFO - Database initialized successfully
+2026-02-26 14:50:11 - ai_agent - INFO - Registered 4 default tools
+2026-02-26 14:50:11 - ai_agent - INFO - Starting AI Agent System
+2026-02-26 14:50:11 - ai_agent - INFO - Initializing database...
+2026-02-26 14:50:11 - ai_agent - INFO - Database initialized successfully
+2026-02-26 14:51:24 - ai_agent - INFO - Health check performed
+2026-02-26 14:51:24 - ai_agent - INFO - Health check performed
+2026-02-26 14:51:24 - ai_agent - INFO - Retrieved 4 tools
+2026-02-26 14:51:47 - ai_agent - INFO - Health check performed
+2026-02-26 14:51:47 - ai_agent - INFO - Retrieved 4 tools
+2026-02-26 14:51:58 - ai_agent - INFO - Created conversation ea17cce7-3637-4853-9f1e-f1fb3d339960 for user user_1772097716030
+2026-02-26 14:51:58 - ai_agent - INFO - Created conversation ea17cce7-3637-4853-9f1e-f1fb3d339960
+2026-02-26 14:52:02 - ai_agent - INFO - Processing user input: hi ...
+2026-02-26 14:52:02 - ai_agent - INFO - Message processed in conversation ea17cce7-3637-4853-9f1e-f1fb3d339960
+2026-02-26 14:52:19 - ai_agent - INFO - Processing user input: give mathemetical calculation processs...
+2026-02-26 14:52:19 - ai_agent - INFO - Selected tool: calculator
+2026-02-26 14:52:19 - ai_agent - INFO - Executing tool: calculator with params: {'operation': 'add'}
+2026-02-26 14:52:19 - ai_agent - ERROR - Tool execution failed: CalculatorTool.execute() missing 2 required positional arguments: 'a' and 'b'
+2026-02-26 14:52:19 - ai_agent - INFO - Message processed in conversation ea17cce7-3637-4853-9f1e-f1fb3d339960
+2026-02-26 14:52:25 - ai_agent - INFO - Processing user input: 10+20...
+2026-02-26 14:52:25 - ai_agent - INFO - Selected tool: calculator
+2026-02-26 14:52:25 - ai_agent - INFO - Executing tool: calculator with params: {'a': 10.0, 'b': 20.0, 'operation': 'add'}
+2026-02-26 14:52:25 - ai_agent - INFO - Message processed in conversation ea17cce7-3637-4853-9f1e-f1fb3d339960
+2026-02-26 14:52:37 - ai_agent - INFO - Health check performed
+2026-02-26 14:52:37 - ai_agent - INFO - Retrieved 4 tools
+2026-02-26 14:53:03 - ai_agent - INFO - Retrieved 4 tools
+2026-02-26 14:53:25 - ai_agent - INFO - Direct tool execution: calculator
+2026-02-26 14:53:25 - ai_agent - INFO - Executing tool: calculator with params: {'operation': 'add', 'a': '-12', 'b': '18'}
+2026-02-26 14:53:50 - ai_agent - INFO - Direct tool execution: calculator
+2026-02-26 14:53:50 - ai_agent - INFO - Executing tool: calculator with params: {'operation': 'multiply', 'a': '3', 'b': '32'}
+2026-02-26 14:53:50 - ai_agent - ERROR - Calculator error: can't multiply sequence by non-int of type 'str'
+2026-02-26 14:54:05 - ai_agent - INFO - Direct tool execution: calculator
+2026-02-26 14:54:05 - ai_agent - INFO - Executing tool: calculator with params: {'operation': 'multiply', 'a': '3', 'b': '32'}
+2026-02-26 14:54:05 - ai_agent - ERROR - Calculator error: can't multiply sequence by non-int of type 'str'
+2026-02-26 14:54:08 - ai_agent - INFO - Health check performed
+2026-02-26 14:54:08 - ai_agent - INFO - Retrieved 4 tools
+2026-02-26 14:54:11 - ai_agent - INFO - Health check performed
+2026-02-26 14:54:11 - ai_agent - INFO - Retrieved 4 tools
+2026-02-26 14:54:17 - ai_agent - INFO - Created conversation 62d18ef3-f6dd-4baa-92c4-4dd100b3eb6b for user user_1772097855861
+2026-02-26 14:54:17 - ai_agent - INFO - Created conversation 62d18ef3-f6dd-4baa-92c4-4dd100b3eb6b
+2026-02-26 14:54:21 - ai_agent - INFO - Processing user input: hi...
+2026-02-26 14:54:21 - ai_agent - INFO - Message processed in conversation 62d18ef3-f6dd-4baa-92c4-4dd100b3eb6b
+2026-02-26 14:54:29 - ai_agent - INFO - Processing user input: hellow...
+2026-02-26 14:54:29 - ai_agent - INFO - Message processed in conversation 62d18ef3-f6dd-4baa-92c4-4dd100b3eb6b
+2026-02-26 14:54:48 - ai_agent - INFO - Processing user input: give some grammer...
+2026-02-26 14:54:48 - ai_agent - INFO - Message processed in conversation 62d18ef3-f6dd-4baa-92c4-4dd100b3eb6b
+2026-02-26 14:54:59 - ai_agent - INFO - Processing user input: it is ok...
+2026-02-26 14:54:59 - ai_agent - INFO - Message processed in conversation 62d18ef3-f6dd-4baa-92c4-4dd100b3eb6b
+2026-02-26 14:55:13 - ai_agent - INFO - Processing user input: 1312381923  add into 9876543...
+2026-02-26 14:55:13 - ai_agent - INFO - Selected tool: calculator
+2026-02-26 14:55:13 - ai_agent - INFO - Executing tool: calculator with params: {'a': 1312381923.0, 'b': 9876543.0, 'operation': 'add'}
+2026-02-26 14:55:13 - ai_agent - INFO - Message processed in conversation 62d18ef3-f6dd-4baa-92c4-4dd100b3eb6b
+2026-02-26 14:55:23 - ai_agent - INFO - Created conversation 88286219-331b-4da8-a61a-070610b24abe for user user_1772097855861
+2026-02-26 14:55:23 - ai_agent - INFO - Created conversation 88286219-331b-4da8-a61a-070610b24abe
+2026-02-26 14:58:23 - ai_agent - INFO - Health check performed
+2026-02-26 14:58:23 - ai_agent - INFO - Health check performed
+2026-02-26 14:58:23 - ai_agent - INFO - Retrieved 4 tools
+2026-02-26 14:58:42 - ai_agent - INFO - Shutting down AI Agent System
+2026-02-26 14:59:02 - ai_agent - INFO - Initializing database...
+2026-02-26 14:59:02 - ai_agent - INFO - Database initialized successfully
+2026-02-26 14:59:03 - ai_agent - INFO - Registered 4 default tools
+2026-02-26 14:59:03 - ai_agent - INFO - Starting AI Agent System
+2026-02-26 14:59:03 - ai_agent - INFO - Initializing database...
+2026-02-26 14:59:03 - ai_agent - INFO - Database initialized successfully
+2026-02-26 14:59:48 - ai_agent - INFO - Shutting down AI Agent System

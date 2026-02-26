@@ -1,0 +1,88 @@
+# 🎯 QUICK START - Run Frontend & Backend
+
+## 3-Step Quick Start (5 minutes)
+
+### Step 1: Setup (One Time)
+```bash
+cd E:\Vibe-Coding-AI\Ai-Agent\frontend
+npm install
+```
+
+### Step 2: Terminal 1 - Start Backend
+```bash
+cd E:\Vibe-Coding-AI\Ai-Agent
+python startup.py
+```
+
+### Step 3: Terminal 2 - Start Frontend
+```bash
+cd E:\Vibe-Coding-AI\Ai-Agent\frontend
+npm start
+```
+
+**Open Browser:** http://localhost:3000
+
+---
+
+## 🎨 Frontend Pages
+
+### Dashboard
+- System status
+- Available tools
+- Quick info
+
+### Chat
+- Create conversations
+- Chat with AI agent
+- View history
+
+### Tools
+- Execute tools directly
+- Test individual tools
+- See results
+
+---
+
+## 🔌 Connected Endpoints
+
+Frontend automatically connects to these backend endpoints:
+
+```
+✅ GET  /api/v1/health
+✅ GET  /api/v1/agent/tools
+✅ POST /api/v1/agent/conversation
+✅ GET  /api/v1/agent/conversations/{user_id}
+✅ POST /api/v1/agent/message
+✅ GET  /api/v1/agent/conversation/{id}/history
+✅ POST /api/v1/agent/tools/{name}/execute
+```
+
+---
+
+## 🚨 If Connection Fails
+
+1. Make sure backend is running: `python startup.py`
+2. Check backend is on port 8000
+3. Check frontend is on port 3000
+4. Press F12 to see browser console errors
+5. Click "Retry Connection" button in app
+
+---
+
+## 📊 Both Running
+
+```
+Terminal 1 (Backend):
+  http://localhost:8000 ← API
+  http://localhost:8000/docs ← API Docs
+
+Terminal 2 (Frontend):
+  http://localhost:3000 ← React App
+```
+
+---
+
+## ✨ That's It!
+
+Just run these 3 commands in order, and you have a fully functional AI Agent system with a React frontend! 🎉
+

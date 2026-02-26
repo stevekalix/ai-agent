@@ -1,0 +1,60 @@
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-badge.success {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-badge.error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.tool-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 15px;
+  transition: all 0.3s;
+}
+
+.tool-card:hover {
+  border-color: #667eea;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.1);
+}
+
+.tool-card h4 {
+  margin-top: 0;
+  color: #667eea;
+  margin-bottom: 8px;
+}
+
+.tool-card p {
+  margin: 0;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.card ul {
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+.card li {
+  margin-bottom: 10px;
+  color: #374151;
+}
+

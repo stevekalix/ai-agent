@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  ai-agent:
+    build: .
+    container_name: ai-agent-app
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - DEBUG=False
+      - LOG_LEVEL=INFO
+      - DATABASE_URL=sqlite:///./ai_agent.db
+    volumes:
+      - ./logs:/app/logs
+      - ./ai_agent.db:/app/ai_agent.db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+networks:
+  default:
+    name: ai-agent-network
+
