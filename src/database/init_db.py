@@ -9,6 +9,7 @@ from src.database.models import Base
 from src.logging_config import logger
 
 # Create engine
+#asdk;lajsij
 engine = create_engine(
     settings.DATABASE_URL,
     connect_args={"check_same_thread": False} if "sqlite" in settings.DATABASE_URL else {},
